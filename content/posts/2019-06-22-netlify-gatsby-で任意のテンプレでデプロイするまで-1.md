@@ -7,26 +7,26 @@ date: 2019-06-22T08:57:19.254Z
 description: Netlify + Netlify CMS + Gatsby で一度サイト構築は済んだものの、好みのデザインのテンプレでデプロイし直した備忘録。
 category: CMS
 ---
-1. gatsby-starterで好きなデザインを選ぶ
+1. Starter Libraryで好きなデザインを選ぶ
 2. Try this starter Netlify する
 3. Connect to Githubでデプロイする
 4. content managerの設定
 
 - - -
 
-## **gatsby-starterで好きなデザインを選ぶ**
+## **Starter Libraryで好きなデザインを選ぶ**
 
 ![](/media/676a4064c65c6241491c7cec0fdfe45e.png "gatsby-starter-gcn")
 
-<https://www.gatsbyjs.org/starters/ryanwiemer/gatsby-starter-gcn/>
+[gatsby-starter-gcn by ryanwiemer](https://www.gatsbyjs.org/starters/ryanwiemer/gatsby-starter-gcn/)
 
 最初このデザインがにしたかったのだが、contentfulの設定で挫折。  
 
-contentfulを使わなくて良いよう"Netlify CMS"にチェックを付けてヒットした下記のテンプレを選択しました。
+contentfulを使わなくていいよう"Netlify CMS"にチェックを付けてヒットした下記のを選択しました。
 
 ![](/media/67579028d94db53a0e7cac5403204efa.png "gatsby-starter-lumen")
 
-<https://www.gatsbyjs.org/starters/alxshelepenok/gatsby-starter-lumen/>
+[gatsby-starter-lumen by alxshelepenok](https://www.gatsbyjs.org/starters/alxshelepenok/gatsby-starter-lumen/)
 
 - - -
 
@@ -42,11 +42,11 @@ contentfulを使わなくて良いよう"Netlify CMS"にチェックを付けて
 
 ## content managerの設定
 
-デプロイするまでの流れは色々あると思いますが、私の場合、初めてのデプロイは<https://www.netlifycms.org/docs/start-with-a-template/>Gatsby Site Starter経由でした。
+デプロイするまでの流れは色々あると思いますが、私の場合、初めてのデプロイは[Gatsby Site Starter](https://www.netlifycms.org/docs/start-with-a-template/)経由でした。
 
 ![](/media/スクリーンショット-2019-06-22-18.56.53.png)
 
-ここで何も設定をいじらずにデプロイすると謎のKALDIデザインになります。
+ここで何も設定をいじらずにデプロイすると[謎のKALDIデザイン](https://www.gatsbyjs.org/starters/netlify-templates/gatsby-starter-netlify-cms/)になります。
 
 ![](/media/7b045e345369cdbae5e6d6b1035fb864.png "謎のKALDI")
 
@@ -63,13 +63,11 @@ contentfulを使わなくて良いよう"Netlify CMS"にチェックを付けて
 ![adminのサインアップ画面](/media/スクリーンショット-2019-06-22-17.54.43.png)
 
 ここに名前、メールアドレス、パスワードを登録。\
-登録したメールアドレス宛に確認メールが届くのでリンク先へ飛べばContent Manager作成完了です！
+登録したメールアドレス宛に確認メールが届くので、リンク先へ飛べばContent Manager作成完了です！
 
 ![](/media/スクリーンショット-2019-06-22-19.35.17.png "sample")
 
 ※サンプル記事
-
-
 
 こんな感じで手軽にポストできます〜
 
