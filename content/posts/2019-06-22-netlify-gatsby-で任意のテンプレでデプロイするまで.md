@@ -1,7 +1,7 @@
 ---
 template: post
 title: Netlify + Gatsby で任意のテンプレでデプロイするまで
-slug: cms
+slug: /posts/how-to-deploy-my-favorite-starter
 draft: true
 date: 2019-06-22T08:57:19.254Z
 description: Netlify + Netlify CMS + Gatsby で一度サイト構築は済んだものの、好みのデザインのテンプレでデプロイし直した備忘録。
