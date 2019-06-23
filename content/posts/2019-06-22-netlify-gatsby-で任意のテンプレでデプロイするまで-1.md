@@ -1,28 +1,27 @@
 ---
 template: post
 title: Netlify + Gatsby で任意のテンプレでデプロイするまで
-slug: /posts/how-to-deploy-my-fav-starter
+slug: /posts/how-to-deploy-my-fav-starter/
 draft: false
 date: 2019-06-22T08:57:19.254Z
 description: Netlify + Netlify CMS + Gatsby で一度サイト構築は済んだものの、好みのデザインのテンプレでデプロイし直した備忘録。
 category: CMS
 ---
-1. Starter Libraryで好きなデザインを選ぶ
-2. Try this starter Netlify する
-3. Connect to Githubでデプロイする
-4. content managerの設定
+- [Starter Libraryで好きなデザインを選ぶ](#Starter-Libraryで好きなデザインを選ぶ)
+- [Try this starter Netlify する](#Try-this-starter-Netlify-する)
+- [Content Managerの設定](#Content-Managerの設定)
 
 - - -
 
-## **Starter Libraryで好きなデザインを選ぶ**
+## Starter Libraryで好きなデザインを選ぶ
 
 ![](/media/676a4064c65c6241491c7cec0fdfe45e.png "gatsby-starter-gcn")
 
 [gatsby-starter-gcn by ryanwiemer](https://www.gatsbyjs.org/starters/ryanwiemer/gatsby-starter-gcn/)
 
-最初このデザインがにしたかったのだが、contentfulの設定で挫折。  
+最初このデザインにしたかったのだが、contentfulの設定で挫折。  
 
-contentfulを使わなくていいよう"Netlify CMS"にチェックを付けてヒットした下記のを選択しました。
+contentfulを避けたかったので、"Netlify CMS"にチェックを付けてヒットした下記のを選択しました。
 
 ![](/media/67579028d94db53a0e7cac5403204efa.png "gatsby-starter-lumen")
 
@@ -40,7 +39,7 @@ contentfulを使わなくていいよう"Netlify CMS"にチェックを付けて
 
 - - -
 
-## content managerの設定
+## Content Managerの設定
 
 デプロイするまでの流れは色々あると思いますが、私の場合、初めてのデプロイは[Gatsby Site Starter](https://www.netlifycms.org/docs/start-with-a-template/)経由でした。
 
@@ -54,11 +53,11 @@ contentfulを使わなくていいよう"Netlify CMS"にチェックを付けて
 
 ![](/media/スクリーンショット-2019-06-22-18.46.36.png "adminリンク")
 
-赤線を引いている"Admin"をクリックしてemailを登録すれば、Content Manager機能を追加できます。
+ページ下部、赤線を引いている"Admin"をクリックしてemailを登録すれば、Content Manager機能を追加できます。
 
 このリンクが[gatsby-starter-lumen](https://www.gatsbyjs.org/starters/alxshelepenok/gatsby-starter-lumen/)には無かった。  
 
-え、もしかしていちいちエディタでファイル作成してプッシュしなきゃなの？と焦りましたが、ふとurlの末尾に"/admin"を付けたら飛べました。  
+え、もしかしていちいちエディタでファイル作成してプッシュしなきゃなの？と焦りましたが、ふとurlの末尾に"/admin"を付けたらあっさりサインアップ画面に飛べました。  
 
 ![adminのサインアップ画面](/media/スクリーンショット-2019-06-22-17.54.43.png)
 
