@@ -65,6 +65,16 @@ contentfulを使わなくていいよう"Netlify CMS"にチェックを付けて
 ここに名前、メールアドレス、パスワードを登録。\
 登録したメールアドレス宛に確認メールが届くので、リンク先へ飛べばContent Manager作成完了です！
 
+※ここでサインアップできない方はGit Gatewayを有効にしてください。
+
+（Netlify→Site Settings→Identity→Git Gateway設定）
+
+
+
+Content Managerの作成が完了したら、Registration Preferencesで
+
+invite-onlyにしておくことも忘れずに！
+
 ![](/media/スクリーンショット-2019-06-22-19.35.17.png "sample")
 
 ※サンプル記事
