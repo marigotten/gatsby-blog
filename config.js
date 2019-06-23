@@ -2,7 +2,7 @@
 
 module.exports = {
   url: 'https://pyotr-chan.netlify.com',
-  title: 'Blog by Pyotr-chan',
+  title: 'ピョートル・ユートル',
   subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
   copyright: '© Pyotr_chan All rights reserved.',
   disqusShortname: '',
@@ -23,7 +23,7 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'ピョートルちゃん',
     photo: '/photo.jpg',
     bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
     contacts: {
