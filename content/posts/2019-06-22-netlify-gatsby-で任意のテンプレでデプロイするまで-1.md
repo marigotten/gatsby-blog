@@ -7,13 +7,14 @@ date: 2019-06-22T08:57:19.254Z
 description: Netlify + Netlify CMS + Gatsby で一度サイト構築は済んだものの、好みのデザインのテンプレでデプロイし直した備忘録。
 category: CMS
 ---
-- [Starter Libraryで好きなデザインを選ぶ](#Starter-Libraryで好きなデザインを選ぶ)
+- <a href="#Starter-Libraryで好きなデザインを選ぶ">Starter Libraryで好きなデザインを選ぶ</a>
 - [Try this starter Netlify する](#Try-this-starter-Netlify-する)
 - [Content Managerの設定](#Content-Managerの設定)
 
 - - -
 
-## Starter Libraryで好きなデザインを選ぶ
+<h2 id="#Starter-Libraryで好きなデザインを選ぶ"><a href="#Starter-Libraryで好きなデザインを選ぶ" class="anchor"></a>Starter Libraryで好きなデザインを選ぶ</h2>
+
 
 ![](/media/676a4064c65c6241491c7cec0fdfe45e.png "gatsby-starter-gcn")
 
