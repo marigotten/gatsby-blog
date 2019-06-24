@@ -25,7 +25,7 @@ module.exports = {
   author: {
     name: 'ピョートルちゃん',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: '九州生まれ東京潜り。CMS初心のなかの初心者です。',
     contacts: {
       email: '#',
       telegram: '#',
