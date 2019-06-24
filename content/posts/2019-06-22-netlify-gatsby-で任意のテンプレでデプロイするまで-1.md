@@ -7,13 +7,13 @@ date: 2019-06-22T08:57:19.254Z
 description: Netlify + Netlify CMS + Gatsby で一度サイト構築は済んだものの、好みのデザインのテンプレでデプロイし直した備忘録。
 category: CMS
 ---
-- <a href="#Starter-Libraryで好きなデザインを選ぶ">Starter Libraryで好きなデザインを選ぶ</a>
-- [Try this starter Netlify する](#Try-this-starter-Netlify-する)
-- [Content Managerの設定](#Content-Managerの設定)
+- <a href="#1">Starter Libraryで好きなデザインを選ぶ</a>
+- <a href="#2">Try this starter Netlify する</a>
+- <a href="#3">Content Managerの設定</a>
 
 - - -
 
-<h2 id="#Starter-Libraryで好きなデザインを選ぶ"><a href="#Starter-Libraryで好きなデザインを選ぶ" class="anchor"></a>Starter Libraryで好きなデザインを選ぶ</h2>
+<h2 id="#1"><a href="#Starter-Libraryで好きなデザインを選ぶ"></a>Starter Libraryで好きなデザインを選ぶ</h2>
 
 
 ![](/media/676a4064c65c6241491c7cec0fdfe45e.png "gatsby-starter-gcn")
@@ -30,7 +30,7 @@ contentfulを避けたかったので、"Netlify CMS"にチェックを付けて
 
 - - -
 
-## Try this starter Netlify する
+<h2 id="#2">Try this starter Netlify する</h2>
 
 ![](/media/trythisstarter.png)
 
@@ -40,7 +40,7 @@ contentfulを避けたかったので、"Netlify CMS"にチェックを付けて
 
 - - -
 
-## Content Managerの設定
+<h2 id="#3">Content Managerの設定</h2>
 
 デプロイするまでの流れは色々あると思いますが、私の場合、初めてのデプロイは[Gatsby Site Starter](https://www.netlifycms.org/docs/start-with-a-template/)経由でした。
 
