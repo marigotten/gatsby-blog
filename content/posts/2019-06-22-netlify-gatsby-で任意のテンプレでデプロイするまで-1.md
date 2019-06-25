@@ -13,7 +13,7 @@ category: CMS
 
 - - -
 
-<h2 id="#1"><a href="#Starter-Libraryで好きなデザインを選ぶ"></a>Starter Libraryで好きなデザインを選ぶ</h2>
+<h2 id="1"><a href="#Starter-Libraryで好きなデザインを選ぶ"></a>Starter Libraryで好きなデザインを選ぶ</h2>
 
 
 ![](/media/676a4064c65c6241491c7cec0fdfe45e.png "gatsby-starter-gcn")
@@ -30,7 +30,7 @@ contentfulを避けたかったので、"Netlify CMS"にチェックを付けて
 
 - - -
 
-<h2 id="#2">Try this starter Netlify する</h2>
+<h2 id="2">Try this starter Netlify する</h2>
 
 ![](/media/trythisstarter.png)
 
@@ -40,7 +40,7 @@ contentfulを避けたかったので、"Netlify CMS"にチェックを付けて
 
 - - -
 
-<h2 id="#3">Content Managerの設定</h2>
+<h2 id="3">Content Managerの設定</h2>
 
 デプロイするまでの流れは色々あると思いますが、私の場合、初めてのデプロイは[Gatsby Site Starter](https://www.netlifycms.org/docs/start-with-a-template/)経由でした。
 
