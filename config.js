@@ -18,10 +18,6 @@ module.exports = {
             variants: [`100`, `300`],
             subsets: [`japanese`]
           },
-          {
-            family: `Lato`,
-            variants: [`300`]
-          },
         ],
       },
     }
