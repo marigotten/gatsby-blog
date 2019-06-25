@@ -4,7 +4,7 @@ title: カスタマイズ2 - font-familyを変更する
 slug: '20190625'
 draft: false
 date: 2019-06-25T13:51:57.547Z
-description: Google Fontsのプラグインの読み込みとフォントの変更を行います
+description: Google Fontsプラグインの読み込みとフォントの変更を行います
 category: CMS
 ---
 エディタで該当フォルダーをオープン。
@@ -41,7 +41,7 @@ $typographic-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
 
 
 
-\*\**
+***
 
 \[Google Fonts](https://fonts.google.com/)を使用したかったのでやり方をググる。
 
@@ -67,11 +67,11 @@ gatsbyプラグインを発見。
 $typographic-font-family: 'Noto Sans JP', 'Lato', sans-serif;
 ```
 
-\~\~今回選んだフォント"Noto Sans JP"はregularだと太めらしいので各ファイルのfont-weightも変更しておく\~\~
+ ~~今回選んだフォント"Noto Sans JP"はregularだと太めらしいので各ファイルのfont-weightも変更しておく~~
 
 ローカルサーバーでチェックしたら微妙だったのでデフォルトのままでいきます。
 
-\*\**
+***
 
 \`gatsby build\`でローカル環境でチェック
 
@@ -85,9 +85,9 @@ $typographic-font-family: 'Noto Sans JP', 'Lato', sans-serif;
 
 英語はデフォルトの方が良いかも・・。
 
-というわけで、デフォルトに"Noto Sans JP"を付け加えるかたちに変更。
+というわけで、Latoは無し、デフォルトに"Noto Sans JP"を付け加えるかたちに変更。
 
-\*\**
+***
 
 再度チェック！
 
@@ -103,7 +103,7 @@ $typographic-font-family: 'Noto Sans JP', 'Lato', sans-serif;
 
 ついでに、デプロイする度に怒られていたアイコン画像も、指示通り正方形に直しておきました。
 
-\*\**
+***
 
 Ctrl+Cでローカルサーバー終了
 
