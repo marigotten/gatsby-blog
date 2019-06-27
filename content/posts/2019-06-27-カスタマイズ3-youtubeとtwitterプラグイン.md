@@ -72,6 +72,10 @@ updated 1 package and audited 1798528 packages in 21.556s
 found 0 vulnerabilities
 ```
 うまくいったようです。こうやって修正箇所を明示してくれるのありがたすぎる。  
+なおエラー解消はこちらの記事を参考にしました。  
+[脆弱性の警告を受けたnpmパッケージの依存関係を力技で直す]
+(https://qiita.com/hibikikudo/items/0af352acac85fce28ec2)  
+***
 続いてyoutubeもインストールします。  
 ```bash
 npm install --save gatsby-remark-embed-youtube
