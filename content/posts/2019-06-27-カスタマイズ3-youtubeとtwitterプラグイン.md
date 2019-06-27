@@ -64,7 +64,7 @@ npmは問題なくアップデート？できましたが脆弱性のあるフ�
 │ More info     │ https://npmjs.com/advisories/886                             │
 └───────────────┴──────────────────────────────────────────────────────────────┘
 ```
-パッケージnode-sass, flow-typedの中で使われているパッケージ`fstream`の脆弱性が高いようです。修正済みパッケージをインストール。
+パッケージ`fstream`の脆弱性が高いようです。修正済みパッケージをインストール。
 ```bash
 npm i fstream -D
 + fstream@1.0.12
@@ -73,8 +73,9 @@ found 0 vulnerabilities
 ```
 うまくいったようです。こうやって修正箇所を明示してくれるのありがたすぎる。  
 なおエラー解消はこちらの記事を参考にしました。  
-[脆弱性の警告を受けたnpmパッケージの依存関係を力技で直す]
-(https://qiita.com/hibikikudo/items/0af352acac85fce28ec2)  
+
+[脆弱性の警告を受けたnpmパッケージの依存関係を力技で直す](https://qiita.com/hibikikudo/items/0af352acac85fce28ec2)  
+
 ***
 続いてyoutubeもインストールします。  
 ```bash
