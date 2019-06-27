@@ -11,8 +11,6 @@ module.exports = {
 
   plugins: [
     {
-      resolve: "gatsby-plugin-twitter",
-    },
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
         fonts: [
@@ -23,13 +21,15 @@ module.exports = {
           },
         ],
       },
+    },
         {
           resolve: "gatsby-remark-embed-youtube",
           options: {　// 固定サイズにする場合に指定
             width: 800,
             height: 400
           }
-        }
+        },
+        "gatsby-plugin-twitter",
       ],
   menu: [
     {
