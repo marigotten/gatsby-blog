@@ -110,7 +110,7 @@ npm install --save gatsby-remark-embed-youtube
 **youtube**  
 本日のBGMを。  
 
-`youtube:https://www.youtube.com/embed/z8Kt1gXL_2M`  
+`youtube:https://www.youtube.com/embed/z8Kt1gXL2M`  
 
 `youtube:https://www.youtube.com/embed/-Y9VtoPvtuM`
 
