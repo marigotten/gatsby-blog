@@ -103,6 +103,13 @@ module.exports = {
             options: { maxWidth: 960 }
           },
           {
+            resolve: "gatsby-remark-embed-youtube",
+            options: {　// 固定サイズにする場合に指定
+              width: 800,
+              height: 400
+            }
+          },
+          {
             resolve: 'gatsby-remark-responsive-iframe',
             options: { wrapperStyle: 'margin-bottom: 1.0725rem' }
           },
@@ -116,7 +123,8 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     'gatsby-plugin-netlify',
-    {
+    "gatsby-plugin-twitter",
+      {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
         modulePath: `${__dirname}/src/cms/index.js`,
