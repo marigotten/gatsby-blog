@@ -40,12 +40,15 @@ module.exports = {
                     options: {　// 固定サイズにする場合に指定
                       width: 800,
                       height: 400
-                            }
-                  },
+                      }
+                    },
+                    {
+                  resolve: "@weknow/gatsby-remark-twitter",
+                    }
                   ],
       },
     },
-        "gatsby-plugin-twitter",
+        // "gatsby-plugin-twitter",
       ],
   menu: [
     {
