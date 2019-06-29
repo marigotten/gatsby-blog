@@ -84,7 +84,7 @@ npm install --save gatsby-remark-embed-youtube
 ```
 2つのプラグインのインストールが完了しました！
 ***
-## gatsby-config.jsに追加
+## config.jsに追加
 ```javascript
   plugins: [
         {
@@ -105,7 +105,7 @@ npm install --save gatsby-remark-embed-youtube
 **Twitter**  
 今回参考にさせていただいた記事の執筆者、Takumonさんのツイートを。  
 
-> <blockquote class="twitter-tweet" data-lang="ja">
+<blockquote class="twitter-tweet" data-lang="ja">
  <p lang="ja" dir="ltr">
    日記書きました。<br><br>
    今月からサンノゼ 
@@ -113,23 +113,10 @@ npm install --save gatsby-remark-embed-youtube
 &mdash;
 takumontakumon (@inouetakumon) 
 <a href="https://twitter.com/inouetakumon/status/1135354793906429962?ref_src=twsrc%5Etfw">2019年6月3日</a>
-</blockquote>  
-
-https://twitter.com/inouetakumon/status/1135354793906429962
+</blockquote>
 
 **youtube**  
 本日のBGMを。  
 
-youtube:https://www.youtube.com/embed/z8Kt1gXL2M  
-
-
-youtube:https://www.youtube.com/embed/Y9VtoPvtuM
-
-
-`youtube:https://www.youtube.com/embed/Y9VtoPvtuM`
-
 `youtube:https://www.youtube.com/embed/-Y9VtoPvtuM`
 
-youtube:https://www.youtube.com/embed/69i92G-UAaw
-
-`youtube:https://www.youtube.com/embed/69i92G-UAaw`
