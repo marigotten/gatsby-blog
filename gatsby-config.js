@@ -93,6 +93,12 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: "@weknow/gatsby-remark-twitter",
+            options: {
+              debug: true
+            }
+          },
+          {
             resolve: 'gatsby-remark-katex',
             options: {
               strict: 'ignore'
@@ -123,7 +129,7 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     'gatsby-plugin-netlify',
-    "gatsby-plugin-twitter",
+    // "gatsby-plugin-twitter",
       {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
@@ -137,6 +143,18 @@ module.exports = {
         pluginConfig: {
           head: true,
         },
+      },
+    },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Noto Sans JP`,
+            variants: [`100`, `300`],
+            subsets: [`japanese`]
+          },
+        ],
       },
     },
     {

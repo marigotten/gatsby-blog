@@ -9,47 +9,7 @@ module.exports = {
   postsPerPage: 4,
   googleAnalyticsId: 'UA-73379983-2',
 
-  plugins: [
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Noto Sans JP`,
-            variants: [`100`, `300`],
-            subsets: [`japanese`]
-          },
-        ],
-      },
-    },
-    // {
-    //   resolve: `gatsby-transformer-remark`,
-    //   options: {
-    //     // CommonMark mode (default: true)
-    //     commonmark: true,
-    //     // Footnotes mode (default: true)
-    //     footnotes: true,
-    //     // Pedantic mode (default: true)
-    //     pedantic: true,
-    //     // GitHub Flavored Markdown mode (default: true)
-    //     gfm: true,
-    //     // Plugins configs
-    //     plugins: [
-    //               {
-    //                 resolve: "gatsby-remark-embed-youtube",
-    //                 options: {　// 固定サイズにする場合に指定
-    //                   width: 800,
-    //                   height: 400
-    //                   }
-    //                 },
-    //                 {
-    //               resolve: "@weknow/gatsby-remark-twitter",
-    //                 }
-    //               ],
-    //   },
-    // },
-        // "gatsby-plugin-twitter",
-      ],
+  plugins: [],
   menu: [
     {
       label: 'Articles',
