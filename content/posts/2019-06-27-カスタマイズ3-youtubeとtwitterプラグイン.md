@@ -105,7 +105,15 @@ npm install --save gatsby-remark-embed-youtube
 **Twitter**  
 今回参考にさせていただいた記事の執筆者、Takumonさんのツイートを。  
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">日記書きました。<br><br>今月からサンノゼ <a href="https://t.co/Z9IPmGJnse">https://t.co/Z9IPmGJnse</a></p>&mdash; takumontakumon (@inouetakumon) <a href="https://twitter.com/inouetakumon/status/1135354793906429962?ref_src=twsrc%5Etfw">2019年6月3日</a></blockquote>  
+> <blockquote class="twitter-tweet" data-lang="ja">
+ <p lang="ja" dir="ltr">
+   日記書きました。<br><br>
+   今月からサンノゼ 
+<a href="https://t.co/Z9IPmGJnse">https://t.co/Z9IPmGJnse</a></p>
+&mdash;
+takumontakumon (@inouetakumon) 
+<a href="https://twitter.com/inouetakumon/status/1135354793906429962?ref_src=twsrc%5Etfw">2019年6月3日</a>
+</blockquote>  
 
 **youtube**  
 本日のBGMを。  
