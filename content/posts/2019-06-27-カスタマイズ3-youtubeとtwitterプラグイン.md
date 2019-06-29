@@ -118,7 +118,8 @@ takumontakumon (@inouetakumon)
 **youtube**  
 本日のBGMを。  
 
-`youtube:https://www.youtube.com/embed/z8Kt1gXL2M`  
+youtube:https://www.youtube.com/embed/z8Kt1gXL2M  
 
-`youtube:https://www.youtube.com/embed/-Y9VtoPvtuM`
+
+youtube:https://www.youtube.com/embed/-Y9VtoPvtuM
 
