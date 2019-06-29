@@ -115,11 +115,21 @@ takumontakumon (@inouetakumon)
 <a href="https://twitter.com/inouetakumon/status/1135354793906429962?ref_src=twsrc%5Etfw">2019年6月3日</a>
 </blockquote>  
 
+https://twitter.com/inouetakumon/status/1135354793906429962
+
 **youtube**  
 本日のBGMを。  
 
 youtube:https://www.youtube.com/embed/z8Kt1gXL2M  
 
 
-youtube:https://www.youtube.com/embed/-Y9VtoPvtuM
+youtube:https://www.youtube.com/embed/Y9VtoPvtuM
 
+
+`youtube:https://www.youtube.com/embed/Y9VtoPvtuM`
+
+`youtube:https://www.youtube.com/embed/-Y9VtoPvtuM`
+
+youtube:https://www.youtube.com/embed/69i92G-UAaw
+
+`youtube:https://www.youtube.com/embed/69i92G-UAaw`
