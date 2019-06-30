@@ -29,12 +29,12 @@ module.exports = {
     photo: '/photo.jpg',
     bio: '九州生まれ東京潜り。CMS初心のなかの初心者です。',
     contacts: {
-      // email: '#',
-      // telegram: '#',
+      email: '#',
+      telegram: '#',
       twitter: 'https://twitter.com/pyotr_chan',
       github: 'https://github.com/pyotr-chan',
-      // rss: '#',
-      // vkontakte: '#'
+      rss: '#',
+      vkontakte: '#'
     }
   }
 };
