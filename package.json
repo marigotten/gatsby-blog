@@ -59,7 +59,7 @@
     "gatsby-plugin-sass": "^2.1.0",
     "gatsby-plugin-sharp": "^2.2.1",
     "gatsby-plugin-sitemap": "^2.2.0",
-    "gatsby-plugin-twitter": "^2.1.0",
+    // "gatsby-plugin-twitter": "^2.1.0",
     "gatsby-remark-autolink-headers": "^2.1.0",
     "gatsby-remark-copy-linked-files": "^2.1.0",
     "gatsby-remark-embed-youtube": "0.0.7",
