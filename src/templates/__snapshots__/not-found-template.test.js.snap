@@ -127,7 +127,7 @@ exports[`NotFoundTemplate renders correctly 1`] = `
           >
             <a
               className="contacts__list-item-link"
-              href="https://www.twitter.com/#"
+              href="https://twitter.com/pyotr_chan"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -146,7 +146,7 @@ exports[`NotFoundTemplate renders correctly 1`] = `
           >
             <a
               className="contacts__list-item-link"
-              href="https://github.com/#"
+              href="https://github.com/pyotr-chan"
               rel="noopener noreferrer"
               target="_blank"
             >
