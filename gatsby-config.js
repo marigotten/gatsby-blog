@@ -93,6 +93,12 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: 'gatsby-remark-code-titles',
+            options: {
+              className: 'code-title',
+            },
+          }, // IMPORTANT: this must be ahead of other plugins that use code blocks
+              {
             resolve: "@weknow/gatsby-remark-twitter",
             options: {
               debug: true

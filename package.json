@@ -110,6 +110,7 @@
     "flow-bin": "^0.98.1",
     "flow-typed": "^2.5.1",
     "fstream": "^1.0.12",
+    "gatsby-remark-code-titles": "^1.1.0",
     "gh-pages": "2.0.1",
     "identity-obj-proxy": "3.0.0",
     "jest": "24.8.0",
