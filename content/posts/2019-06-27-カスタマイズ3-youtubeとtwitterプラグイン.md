@@ -138,7 +138,7 @@ npm install --save gatsby-remark-embed-youtube
 # フ ァ イ ル 間 違 っ て る
 ~~**config.js**~~  
 
-**◯ gatsby-config.js**
+** ◯ gatsby-config.js**
 
 しかも、プラグインである`gatsby-transformrer-remark`のオプションとして記述しないといけないのに、独立したプラグインとして記述していました。  
 
