@@ -92,7 +92,7 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
-          plugins: [{
+          {
             resolve: 'gatsby-remark-emojis',
             options: {
               // Deactivate the plugin globally (default: true)
@@ -111,7 +111,7 @@ module.exports = {
                 width        : '25px'
               }
             }
-          }],
+          },
           {
             resolve: 'gatsby-remark-code-titles',
             options: {
