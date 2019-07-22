@@ -1,17 +1,17 @@
 'use strict';
 
-const site = require('./.js');
-const postCssPlugins = require('./postcss-.js');
+const siteConfig = require('./config.js');
+const postCssPlugins = require('./postcss-config.js');
 
 module.exports = {
   siteMetadata: {
-    url: site.url,
-    title: site.title,
-    subtitle: site.subtitle,
-    copyright: site.copyright,
-    disqusShortname: site.disqusShortname,
-    menu: site.menu,
-    author: site.author
+    url: siteConfig.url,
+    title: siteConfig.title,
+    subtitle: siteConfig.subtitle,
+    copyright: siteConfig.copyright,
+    disqusShortname: siteConfig.disqusShortname,
+    menu: siteConfig.menu,
+    author: siteConfig.author
   },
   plugins: [
     {
@@ -164,8 +164,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-gtag',
       options: {
-        trackingIds: [site.googleAnalyticsId],
-        plugin: {
+        trackingIds: [siteConfig.googleAnalyticsId],
+        pluginConfig: {
           head: true,
         },
       },
@@ -216,8 +216,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: site.title,
-        short_name: site.title,
+        name: siteConfig.title,
+        short_name: siteConfig.title,
         start_url: '/',
         background_color: '#FFF',
         theme_color: '#F7A046',
