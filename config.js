@@ -2,9 +2,9 @@
 
 module.exports = {
   url: 'https://pyotr-chan.netlify.com',
-  title: 'ピョートル・ユートル',
+  title: 'necoエンジニア雑記集',
   subtitle: '九州生まれ東京潜りのエンジニア志望。CMS初心のなかの初心者です。',
-  copyright: '© pyotr_chan All rights reserved.',
+  copyright: '© neco All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
   googleAnalyticsId: 'UA-143063197-1',
@@ -25,14 +25,14 @@ module.exports = {
     }
   ],
   author: {
-    name: 'ピョートルちゃん',
+    name: 'neco,
     photo: '/photo.jpg',
     bio: '九州生まれ東京潜り。CMS初心のなかの初心者です。',
     contacts: {
       email: '#',
       telegram: '#',
-      twitter: 'pyotr_chan',
-      github: 'pyotr-chan',
+      twitter: '@neco_neco_pyon',
+      github: '#',
       rss: '#',
       vkontakte: '#'
     }
